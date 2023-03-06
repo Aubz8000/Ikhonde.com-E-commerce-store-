@@ -1,0 +1,151 @@
+/* Global Styles */
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #f2f2f2;
+}
+
+header {
+background-color: #333;
+color: yellow;
+padding: 20px;
+}
+
+h1 {
+margin: 0;
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+}
+
+nav ul li {
+margin-right: 100px;
+}
+
+nav ul li a {
+color: black;
+text-decoration: none;
+font-size: 20px;
+}
+
+nav ul li a:hover {
+border-bottom: 2px solid gray;
+}
+
+main {
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
+}
+
+section {
+margin-bottom: 40px;
+}
+
+h2 {
+margin-top: 0;
+font-size: 32px;
+text-align: center;
+}
+
+h2:hover {
+border-bottom: 2px solid gray;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+li {
+width: 30%;
+background-color: white;
+margin-bottom: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+li img {
+width: 100%;
+height: auto;
+}
+
+li h3 {
+margin: 10px;
+font-size: 24px;
+text-align: center;
+}
+
+li p {
+margin: 10px;
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+}
+
+/* Purchase Form Styles */
+
+form {
+max-width: 600px;
+margin: 0 auto;
+background-color: white;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+padding: 20px;
+}
+
+form h2 {
+font-size: 28px;
+text-align: center;
+margin-bottom: 20px;
+}
+
+form label {
+display: block;
+margin-bottom: 10px;
+font-size: 20px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+display: block;
+width: 100%;
+padding: 10px;
+font-size: 20px;
+margin-bottom: 20px;
+box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius: 4px;
+}
+
+form input[type="submit"] {
+background-color: #333;
+color: white;
+border: none;
+padding: 10px 20px;
+font-size: 20px;
+cursor: pointer;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+ul {
+flex-direction: column;
+align-items: center;
+}
+
+li {
+	width: 80%;
+}
+}
